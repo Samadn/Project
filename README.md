@@ -5,6 +5,7 @@ gathered the inventories of a few local stores, so I can track what items they h
 much they are selling things for. With that information (and knowing what I need to purchase), I can
 assemble a list of what I need to purchase from each location.
 Here's the format for the stores' inventories:
+
 4 Stores:
 Local Grocery
 East Lansing
@@ -31,6 +32,7 @@ East Lansing
 Candy,10,$0.85
 Soda,4,$1.50
 Sandwich,3,$2.99
+
 The first line of each store is the store's name, the next line is the store's location. The rest of the
 lines (before the blank line) is the inventory.
 For each inventory line, there is the item's name, the quantity (the amount of that item the store has
@@ -41,6 +43,7 @@ confirm it read in the data properly).
 Here's what should be outputed:
 
 Store Related Information (ordered by in-file order):
+
 There are 4 store(s).
 Local Grocery has 6 distinct items.
 Electronics R Here has 3 distinct items.
